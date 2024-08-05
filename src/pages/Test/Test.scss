@@ -1,0 +1,125 @@
+.all_result_input__container {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  .result_input__wrapper {
+    position: relative;
+
+    width: 100px;
+    height: 150px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+
+    .result_input {
+      width: 100px;
+      height: 150px;
+
+      cursor: pointer;
+
+      opacity: 0;
+      // display: none;
+    }
+
+    .add_icon {
+      font-size: 40px;
+
+      position: absolute;
+      top: 55px;
+      left: 27px;
+
+      color: white;
+      border: 2px solid white;
+      border-radius: 30px;
+    }
+  }
+
+  .all_file_names_container {
+    display: flex;
+
+    width: 500px;
+    height: 150px;
+    margin-left: 30px;
+
+    flex-wrap: wrap;
+
+    .file_name {
+      font-size: 16px;
+
+      padding: 5px 10px;
+    }
+  }
+}
+
+.each_result_input__container {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  .mbti_result_item__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    .mbti_result_input__wrapper {
+      position: relative;
+
+      width: 100px;
+      height: 150px;
+      margin: 10px 10px 0 0;
+
+      border: 1px solid white;
+      border-radius: 10px;
+
+      .each_input__wrapper {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+
+        cursor: pointer;
+
+        opacity: 0;
+
+        .each_input {
+          width: 100px;
+          height: 150px;
+
+          cursor: pointer;
+
+          opacity: 0;
+        }
+      }
+
+      .result_file_name {
+        position: absolute;
+        top: 60px;
+        left: 14px;
+      }
+
+      .add_icon {
+        font-size: 40px;
+
+        position: absolute;
+        top: 55px;
+        left: 27px;
+
+        color: white;
+        border: 2px solid white;
+        border-radius: 30px;
+      }
+    }
+  }
+}
+
+.mbti_result__img {
+  position: absolute;
+  top: 0;
+
+  width: 100px;
+  height: 150px;
+
+  border-radius: 15px;
+}
